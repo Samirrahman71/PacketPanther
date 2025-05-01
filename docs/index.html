@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PacketPanther - Zero-Cost Network Utility Suite</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <style>
+        :root {
+            --primary-color: #ff5722;
+            --secondary-color: #ff9800;
+        }
+        .hero {
+            background: linear-gradient(135deg, #333 0%, #222 100%);
+            color: white;
+            padding: 5rem 0;
+        }
+        .feature-icon {
+            font-size: 3rem;
+            color: var(--primary-color);
+            margin-bottom: 1rem;
+        }
+        .btn-primary {
+            background-color: var(--primary-color);
+            border-color: var(--primary-color);
+        }
+        .btn-primary:hover {
+            background-color: var(--secondary-color);
+            border-color: var(--secondary-color);
+        }
+        .cost-banner {
+            background-color: #28a745;
+            color: white;
+            padding: 1rem;
+            text-align: center;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="cost-banner">
+        Zero Cloud Costs - Runs Completely Local with No Recurring Expenses
+    </div>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">🐆 PacketPanther</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#download">Download</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="https://github.com/Samirrahman71/PacketPanther">GitHub</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero">
+        <div class="container text-center">
+            <h1 class="display-3 mb-4">PacketPanther</h1>
+            <p class="lead mb-5">Five essential network tools in one 20MB binary. <br>No cloud dependencies. No recurring costs. Just powerful network utilities.</p>
+            <a href="#download" class="btn btn-primary btn-lg">Download Now</a>
+        </div>
+    </section>
+
+    <section class="py-5" id="features">
+        <div class="container">
+            <h2 class="text-center mb-5">All-in-One Network Toolkit</h2>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">📦</div>
+                        <h3>Packet Capture</h3>
+                        <p>Real-time packet capture and analysis with top-talkers statistics using Google's gopacket.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">🔍</div>
+                        <h3>Traceroute</h3>
+                        <p>Accurate hop-by-hop latency measurement with comprehensive trace history.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">🚪</div>
+                        <h3>Port Scanner</h3>
+                        <p>High-performance 100-worker concurrent TCP port scanner for quick network mapping.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">📡</div>
+                        <h3>SNMP Polling</h3>
+                        <p>Detailed SNMP v2c/v3 device inventory with comprehensive data collection.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">💾</div>
+                        <h3>Data Persistence</h3>
+                        <p>Built-in SQLite database stores all captured data for historical analysis.</p>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="text-center">
+                        <div class="feature-icon">📊</div>
+                        <h3>Web Dashboard</h3>
+                        <p>Elegant browser-based UI for visualizing network data, accessible on port 8080.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-5 bg-light" id="download">
+        <div class="container">
+            <h2 class="text-center mb-5">Download PacketPanther</h2>
+            <div class="row g-4 justify-content-center">
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Windows</h3>
+                            <p class="card-text">Windows 10/11 x64</p>
+                            <a href="https://github.com/Samirrahman71/PacketPanther/releases/latest/download/ppanther-windows-amd64.exe" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">macOS</h3>
+                            <p class="card-text">Intel & Apple Silicon</p>
+                            <a href="https://github.com/Samirrahman71/PacketPanther/releases/latest/download/ppanther-darwin-universal" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Linux</h3>
+                            <p class="card-text">x64 & ARM</p>
+                            <a href="https://github.com/Samirrahman71/PacketPanther/releases/latest/download/ppanther-linux-amd64" class="btn btn-primary">Download</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card text-center">
+                        <div class="card-body">
+                            <h3 class="card-title">Docker</h3>
+                            <p class="card-text">Multi-platform image</p>
+                            <a href="https://github.com/Samirrahman71/PacketPanther/pkgs/container/packet-panther" class="btn btn-primary">Docker Hub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-5">
+                <div class="col text-center">
+                    <h4>One-Line Install (macOS/Linux)</h4>
+                    <div class="bg-dark text-light p-3 rounded">
+                        <code>curl -sSL https://raw.githubusercontent.com/Samirrahman71/PacketPanther/main/scripts/install.sh | bash</code>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-light py-4">
+        <div class="container text-center">
+            <p>© 2025 PacketPanther. MIT License.</p>
+            <p class="text-muted">Created with performance and zero-cost operation in mind.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
