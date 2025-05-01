@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ .Title }}</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <script src="/static/js/app.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <h1>🐆 PacketPanther</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="/">Dashboard</a></li>
+                <li><a href="/capture">Packet Capture</a></li>
+                <li><a href="/trace">Traceroute</a></li>
+                <li><a href="/scan">Port Scanner</a></li>
+                <li><a href="/snmp">SNMP Inventory</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        {{ template "content" . }}
+    </main>
+    <footer>
+        <p>PacketPanther v0.1.0 | Running on {{ .Platform }} | Server time: {{ .Time.Format "2006-01-02 15:04:05" }}</p>
+    </footer>
+</body>
+</html>
